@@ -16,7 +16,7 @@ The application includes a basic HTTP server that responds to GET and POST reque
 
 ## Getting Started
 
-    # clone this repository to the local machine using:
+    # Сlone this repository to the local machine:
     $ git clone https://github.com/alex-nuclearboy/goit-python-web-hw4.git
     # Navigate to the cloned directory:
     $ cd goit-python-web-hw4
