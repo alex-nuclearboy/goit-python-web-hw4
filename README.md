@@ -23,7 +23,7 @@ The application includes a basic HTTP server that responds to GET and POST reque
     # Build the Docker image:
     $ docker build -t python-web-app .
     # Run the container with external data storage:
-    $ docker run -d -p 3000:3000 --name running-app -v $(PWD)/storage:/app/storage python-web-app
+    $ docker run -d -p 3000:3000 --name running-app -v ${PWD}/storage:/app/storage python-web-app
     # To stop and remove the running container, use the following commands:
     $ docker stop running-app
     $ docker rm running-app
